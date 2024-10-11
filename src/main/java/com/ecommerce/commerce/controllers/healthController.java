@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-public class HealthController {
+public class healthController {
 
     @GetMapping("/")
     public Map<String, Boolean> healtCheck() {
